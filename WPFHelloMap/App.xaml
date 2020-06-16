@@ -1,0 +1,11 @@
+﻿<Application x:Class="WPFHelloMap.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:map="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <map:ApplicationIdCredentialsProvider
+             x:Key="MyCredentials"
+             ApplicationId="AuVPRmy9rFoEma_vJ2vs8-ZGFijt4RcY0ntyoNs0vZr7IupXtlGyLTh0yDqVXcGV" />
+    </Application.Resources>
+</Application>
